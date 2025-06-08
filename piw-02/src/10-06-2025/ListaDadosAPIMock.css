@@ -1,0 +1,30 @@
+.card {
+  /* Dimensões e Espaçamento */
+  width: 300px; /* Largura fixa para o card */
+  padding: 20px; /* Espaçamento interno */
+  margin: 20px; /* Espaçamento externo para separar de outros elementos */
+
+  /* Estilo do Fundo e Borda */
+  background-color: #ccecf5; /* Fundo branco */
+  border: 1px solid #e0e0e0; /* Borda cinza clara */
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+
+  /* Alinhamento de Conteúdo (opcional, se quiser centralizar) */
+  text-align: center; /* Centraliza o texto e botões */
+
+  /* Transições para Interatividade (opcional, mas legal) */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transição para hover */
+}
+
+/* Estilo para o hover (quando o mouse passa por cima) */
+.card:hover {
+  transform: translateY(-5px); /* Move o card ligeiramente para cima */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+.card p {
+  color: #666666; /* Cor do parágrafo */
+  line-height: 1.6; /* Altura da linha para melhor leitura */
+  margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}

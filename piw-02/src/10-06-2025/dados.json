@@ -1,0 +1,81 @@
+{
+  "characters": [
+    {
+      "id": "spongebob",
+      "name": "Bob Esponja Calça Quadrada",
+      "species": "Esponja do Mar",
+      "occupation": "Cozinheiro do Siri Cascudo",
+      "main_location": "Abacaxi no Fundo do Biquíni",
+      "friends": ["patrick", "sandy"],
+      "voice_actor": "Tom Kenny"
+    },
+    {
+      "id": "patrick",
+      "name": "Patrick Estrela",
+      "species": "Estrela do Mar",
+      "occupation": "Desempregado (ocasionalmente em 'empregos' estranhos)",
+      "main_location": "Rocha no Fundo do Biquíni",
+      "friends": ["spongebob"],
+      "voice_actor": "Bill Fagerbakke"
+    },
+    {
+      "id": "squidward",
+      "name": "Lula Molusco Tentáculos",
+      "species": "Polvo",
+      "occupation": "Caixa do Siri Cascudo / Artista / Músico",
+      "main_location": "Moai (cabeça de pedra) no Fundo do Biquíni",
+      "friends": [],
+      "voice_actor": "Rodger Bumpass"
+    },
+    {
+      "id": "sandy",
+      "name": "Sandy Bochechas",
+      "species": "Esquilo",
+      "occupation": "Cientista / Inventor",
+      "main_location": "Cúpula do Ar no Fundo do Biquíni",
+      "friends": ["spongebob", "patrick"],
+      "voice_actor": "Carolyn Lawrence"
+    },
+    {
+      "id": "mrkrabs",
+      "name": "Sr. Siriguejo",
+      "species": "Caranguejo",
+      "occupation": "Dono do Siri Cascudo",
+      "main_location": "Âncora (casa) no Fundo do Biquíni",
+      "friends": [],
+      "voice_actor": "Clancy Brown"
+    },
+    {
+      "id": "plankton",
+      "name": "Plankton",
+      "species": "Copepóde",
+      "occupation": "Dono do Balde de Lixo / Gênio do mal",
+      "main_location": "Balde de Lixo no Fundo do Biquíni",
+      "friends": ["karen_computer_wife"],
+      "voice_actor": "Mr. Lawrence"
+    },
+    {
+      "id": "karen_computer_wife",
+      "name": "Karen",
+      "species": "Computador / Esposa Robô",
+      "occupation": "Coadjuvante do Plankton",
+      "main_location": "Balde de Lixo no Fundo do Biquíni",
+      "friends": ["plankton"],
+      "voice_actor": "Jill Talley"
+    }
+  ],
+  "episodes": [
+    {
+      "id": 1,
+      "title": "Ajuda Procurada / Limpadores de Chaminé / Pescaria de Água-Viva",
+      "season": 1,
+      "air_date": "1999-05-01"
+    },
+    {
+      "id": 2,
+      "title": "Fila da Felicidade / Biscoitos da Sorte",
+      "season": 1,
+      "air_date": "1999-07-17"
+    }
+  ]
+}
