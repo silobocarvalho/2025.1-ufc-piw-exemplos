@@ -2,6 +2,7 @@ import './App.css';
 import ShoppingListCart from './ShoppingListCart';
 import ChangeFace from './ChangeFace';
 import Contador from './Contador';
+import ListaPersonagens from './09-06-2025/RickMorty/ListaPersonagens';
 
 function App() {
 
@@ -22,6 +23,8 @@ function App() {
       <ShoppingListCart shoppingList={listItemsShopping} />
       <ChangeFace />
       <Contador />
+
+      <ListaPersonagens />
 
     </>
   )
