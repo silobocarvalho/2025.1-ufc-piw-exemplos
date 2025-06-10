@@ -86,3 +86,32 @@ function Contador() {
 export default Contador;
 ```
 Neste exemplo, usamos o hook `useState` para criar um estado chamado `contador` com o valor inical 0. A função `setContador` é usada para atualizar o valor do contador. Quando o botão é clicado, a função `incrementar` é chamada, atualizando o estado e fazendo com que o componente seja re-renderizado com o novo valor do contador.
+
+### UseEffect
+O hook `useEffect` é usado para lidar com efeitos colaterais em componentes React, como chamadas de API, manipulação de eventos e atualizações de DOM. Ele permite que você execute código após a renderização do componente.
+
+Ele age como um ouvinte de mudanças, permitindo que você especifique quando o efeito deve ser executado. Você pode passar uma lista de dependências como segundo argumento para controlar quando o efeito deve ser re-executado.
+
+Exemplo de uso do `useEffect`:
+```jsx
+import { useState, useEffect } from 'react';
+
+function ExemploUseEffect() {
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    fetch('https://api.exemplo.com/dados')
+      .then(response => response.json())
+      .then(data => setData(data));
+  }, []); // O array vazio significa que o efeito será executado apenas uma vez, após a montagem do componente.
+
+  return (
+    <div>
+      {data ? <p>Dados: {JSON.stringify(data)}</p> : <p>Carregando...</p>}
+    </div>
+  );
+};
+
+export default ExemploUseEffect;
+```
+Neste exemplo, o `useEffect` é usado para buscar dados de uma API quando o componente é montado. O array vazio `[]` como segundo argumento significa que o efeito será executado apenas uma vez, semelhante ao `componentDidMount` em classes.
